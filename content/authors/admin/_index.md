@@ -23,12 +23,12 @@ bio: My research interests include a lot of things, not gonna list them here.
 interests:
 - Knockback stacking
 - Lasers
-- Flash faces
+- Jumping
 
 education:
   courses:
   - course: Degree in Biotechnological Engineering
-    institution: PUC
+    institution: Pontificia Universidad Católica de Chile
     year: 2016
   - course: PhD in Flash Iconography
     institution: Falco Discord

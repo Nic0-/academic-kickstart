@@ -1,20 +1,16 @@
 ---
 title: 'Knockback stacking part 1: vector addition and Falco'
-author: ''
+author: sp99
 date: '2020-04-20'
+categories:
+  - Mechanics
 slug: knockback-stacking-part-1-vector-addition-and-falco
-categories: []
-tags: []
-subtitle: ''
-summary: ''
-authors: []
 lastmod: '2020-04-20T20:50:14-04:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
-projects: []
 ---
 
 ### Knockback stacking is a not often discussed mechanic that has big implications for Falco.
