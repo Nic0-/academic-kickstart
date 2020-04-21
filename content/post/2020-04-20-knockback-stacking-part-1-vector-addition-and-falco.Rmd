@@ -1,0 +1,45 @@
+---
+title: 'Knockback stacking part 1: vector addition and Falco'
+author: ''
+date: '2020-04-20'
+slug: knockback-stacking-part-1-vector-addition-and-falco
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-04-20T20:50:14-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+### Knockback stacking is a not often discussed mechanic that has big implications for Falco.
+
+Have you ever noticed dair sometimes sends the opponent downwards slower than you'd expect?  
+Lots of people see it and think `that's weak dair, obviously`.  
+Well, for starters, "weak dair" (the late hitbox) isn't actually weak: at low percents it inflicts more knockback than clean dair and at higher percents it's marginally weaker.
+
+Then what's making them fall slow? It's knockback stacking.  
+Here's a pretty clear example, Marth gets shined, then he gets daired (clean hitbox, not late) and falls down very slowly, then it happens again.
+
+<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/EvilSarcasticAegeancat?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> 
+
+See how even with percent increasing and "weak dair" never coming into play he still falls slowly?  
+So, how does this work? [taukhan already did a thorough writeup, so if you want to learn more check it out.](https://smashboards.com/threads/falco-discussion-thread.256826/page-602#post-21816201)  
+The short version is that the game does conditional vector addition for knockback when more than 10 frames have passed between hits.
+Let's break that down: the game takes your knockback, looks at the vertical and horizontal knockback vectors separately and adds them with the components of the following hit. In the case of shine into dair, one sends you up, the other sends you down, so you add them and they end up cancelling each other.
+Ok, but what about situations where the kb components point in the same direction? That's where the "conditional" part comes in, they only get added if they point in opposite directions, if they point in the same direction, the game keeps the bigger one and discards the other one. 
+
+
+In action it looks like this:
+
+<div style='position:relative; padding-bottom:calc(82.19% + 44px)'><iframe src='https://gfycat.com/ifr/PeacefulImportantHarborseal?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> 
+
+This shows a shine bair with no kb stacking, followed by one with stacking, Marth goes way higher in the second one (it's the one where he gets combo'd instead of getting an upair of his own). That's because the remaining vertical knockback from the shine is bigger than the vertical knockback of the bair, so you keep it and ignore bair's v. knockback. Same thing happens with the horizontal knockback, except this time it's bair that has the bigger horizontal component. The result is you (kinda) get a bair with shine's upward knocback and bair's horizontal knockback.
+
+In a follow up post I'll show some applications (including a clip of a very excited westballz after a conversation we had).
+
