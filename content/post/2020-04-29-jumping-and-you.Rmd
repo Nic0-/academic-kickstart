@@ -24,12 +24,13 @@ We're gonna look into jumping in this series of articles, in particular the foll
 * Instant double jumping and why you shouldn't do it
 * Backflips
 
-Having said that, let's move onto our first topic.
+Having said that, let's jump into the first article.
 
 ### Jump Direction and drift
 
-Some of you might have watched [this video](https://youtu.be/1AVCBvFO7VE) or [this one](https://youtu.be/tY3XugmyMow) on analog jumps. They show one of the concepts I want to talk about here: intial jump speed is determined by your stick position on the 2nd to last frame of jump startup.  
-This means you can control you jump distance without needing to drift, which simplifies inputs and lets you focus on other stuff, like which direction you're gonna laser in, changing your fast fall timing or just freeing up your mental stack so you can pay attention to your opponent (please pay attention to your opponent).
+Some of you might have watched [this video](https://youtu.be/1AVCBvFO7VE) or [this one](https://youtu.be/tY3XugmyMow) on analog jumps. They show one of the concepts I want to talk about here: intial jump speed is determined by your stick position on the 2nd to last frame of jump startup.
+
+This means you can control your jump distance without needing to drift, which simplifies inputs and lets you focus on other stuff, like which direction you're gonna laser in, changing your fast fall timing or just freeing up your mental stack so you can pay attention to your opponent (please pay attention to your opponent).
 
 The following pic shows Falco's landing position, with no drift whatsoever, if you dash and then hold the stick *during jump startup* in a certain direction.
 
