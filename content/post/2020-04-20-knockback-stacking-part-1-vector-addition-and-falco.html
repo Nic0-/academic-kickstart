@@ -23,18 +23,18 @@ Well, for starters, “weak dair” (the late hitbox) isn’t actually weak: at 
 <p>Then what’s making them fall slow? It’s knockback stacking.<br />
 Here’s a pretty clear example, Marth gets shined, then he gets daired (clean hitbox, not late) and falls down very slowly, then it happens again.</p>
 <div style="position:relative; padding-bottom:calc(56.25% + 44px)">
-<iframe src="https://gfycat.com/ifr/EvilSarcasticAegeancat?autoplay=0" frameborder="0" scrolling="no" width="100%" height="100%" style="position:absolute;top:0;left:0;" allowfullscreen>
+<iframe src="https://gfycat.com/ifr/EvilSarcasticAegeancat?autoplay=0" frameborder="0" scrolling="no" width="75%" height="95%" style="position:absolute;top:0;left:0;" allowfullscreen>
 </iframe>
 </div>
 <p>
 <p>See how even with percent increasing and “weak dair” never coming into play he still falls slowly?<br />
 So, how does this work? <a href="https://smashboards.com/threads/falco-discussion-thread.256826/page-602#post-21816201">taukhan already did a thorough writeup, so if you want to learn more check it out.</a><br />
 The short version is that the game does conditional vector addition for knockback when more than 10 frames have passed between hits.
-Let’s break that down: the game takes your knockback, looks at the vertical and horizontal knockback vectors separately and adds them with the components of the following hit. In the case of shine into dair, one sends you up, the other sends you down, so you add them and they end up cancelling each other.
+Let’s break that down: the game takes your knockback, looks at the vertical and horizontal knockback vectors separately and adds them with the components of the following hit. In the case of shine into dair, one sends you up, the other sends you down, so you add them and they end up cancelling each other.<br />
 Ok, but what about situations where the kb components point in the same direction? That’s where the “conditional” part comes in, they only get added if they point in opposite directions, if they point in the same direction, the game keeps the bigger one and discards the other one.</p>
 <p>In action it looks like this:</p>
-<div style="position:relative; padding-bottom:calc(82.19% + 44px)">
-<iframe src="https://gfycat.com/ifr/PeacefulImportantHarborseal?autoplay=0" frameborder="0" scrolling="no" width="100%" height="100%" style="position:absolute;top:0;left:0;" allowfullscreen>
+<div style="position:relative; padding-bottom:calc(62.19% + 44px)">
+<iframe src="https://gfycat.com/ifr/PeacefulImportantHarborseal?autoplay=0" frameborder="0" scrolling="no" width="75%" height="95%" style="position:absolute;top:0;left:0;" allowfullscreen>
 </iframe>
 </div>
 <p>

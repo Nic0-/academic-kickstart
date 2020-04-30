@@ -1,0 +1,13 @@
+# This is my custom font combo
+
+# Font style metadata
+name = "Nico"
+
+# Optional Google font URL
+google_fonts = "Fira+Sans|Source+Sans+Pro|Fira+Mono"
+
+# Font families
+heading_font = "Fira Sans"
+body_font = "Source Sans Pro"
+nav_font = ""
+mono_font = "Fira Mono"

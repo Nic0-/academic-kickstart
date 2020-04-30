@@ -1,0 +1,66 @@
+---
+title: Jumping and you
+author: sp99
+date: '2020-04-29'
+slug: jumping-and-you
+categories:
+  - Mechanics
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-04-29T12:01:21-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+We're gonna look into jumping in this series of articles, in particular the following jump-related topics:
+
+* Jump direction and drift
+* Instant double jumping and why you shouldn't do it
+* Backflips
+
+Having said that, let's move onto our first topic.
+
+### Jump Direction and drift
+
+Some of you might have watched [this video](https://youtu.be/1AVCBvFO7VE) or [this one](https://youtu.be/tY3XugmyMow) on analog jumps. They show one of the concepts I want to talk about here: intial jump speed is determined by your stick position on the 2nd to last frame of jump startup.  
+This means you can control you jump distance without needing to drift, which simplifies inputs and lets you focus on other stuff, like which direction you're gonna laser in, changing your fast fall timing or just freeing up your mental stack so you can pay attention to your opponent (please pay attention to your opponent).
+
+The following pic shows Falco's landing position, with no drift whatsoever, if you dash and then hold the stick *during jump startup* in a certain direction.
+
+![](/post/2020-04-29-jumping-and-you_files/lasers.png)
+
+The arrow shows Falco's starting position, he then dashes left or right, and does the exact same laser (no variation on jump, laser or fast fall timing).  
+
+The only difference between each one is that I held left, right or no direction during jump startup, so the leftmost bird is doing dash left, then jumping left; the next one dash left, releasing the control stick during jump startup (neutral jump), and so on. The pic is missing dash right, jump left, which would go right in the blank space in front of the intitial location.
+
+This brings us to something really good that more people should do: `dash forward neutral jump`.  What's so good about it? It lets you advance and doesn't expose you to attacks in place or dash back whiff punish attempts (and more!).
+
+This is a very basic example, Falco does laser into approaching laser, Sheik responds with take laser ftilt (you can replace this with a Fox/Marth uptilt or anything similar). Then he does laser into dash neutral jump laser, which puts him close to Sheik with frame advantage.  
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/sneakyweightybats?autoplay=0' frameborder='0' scrolling='no' width='75%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+Here's an example with Fox doing dash dance grab vs an approaching dair:
+
+<div style='position:relative; padding-bottom:calc(72.19% + 44px)'><iframe src='https://gfycat.com/ifr/hardtofinddearbarnswallow?autoplay=0' frameborder='0' scrolling='no' width='75%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> 
+
+
+
+And here's one against Samus, which needs a bit more explaining.
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/anysmoothflounder?autoplay=0' frameborder='0' scrolling='no' width='75%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+This dair covers Samus moving forward (a wavedash forward goes right into it), is safe from her OoS options (upb and nair OoS won't hit) and still gives you enough time to chase and whiff punish in case she does a wd back dsmash/dtilt to cover an overshoot.
+
+All of this applies if you jump while running, walking, standing still (or shield stopping). On that last one: Shield stops allow you to do standing jumps out of dash, since they drop your character velocity to 0. You can use shield stop jumps as a way to change the starting position of your "standing jump", but I don't recommend doing the `dashback shield stop lasers` that some players like to do, unless you have a good reason for it. You're usually better off doing a short jump in that direction, it's faster and easier to execute anyway if you apply what's covered in this article.  
+ 
+A neat way to use shield stop jumps is as easier pivot jumps, they're a tiny bit slower but a lot more reliable, using the cstick correctly should let you avoid wasting frames: push the cstick up *before* pressing shield, so when you press shield you'll get an instant jump (only 1 frame of shield). I'll talk more about why Falco would want to do this in another article (hint: it's about backflipping).
+
+With that out of the way, let's close this with a little bit of info on drift.
+
+Drift applies acceleration to your character each frame, proportional to your control stick's X position, but it can't put you over your character's max air speed. This last part is very relevant to Falco, as dashing then jumping forward puts you over his max air speed, which means *drifting forward does absolutely nothing if you jumped forward.*  Plus, since you're over your max air speed, the game will slow you down each frame, independent of drift, and we can take advantage of that to basically stop in midair really fast: if you drift back while past max air speed, it gets added to the natural speed reduction. This allows Falco to control his jumps even more precisely (at least jumps forward) as you can pick a spot and hit the brakes.
+
+I hope this helped you guys understand jumping mechanics better, let me know if something was unclear or wrong so I can fix it.
+Also dash neutral jump, it's really good.

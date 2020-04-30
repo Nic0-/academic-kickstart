@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Knockback stacking part 1: vector addition and Falco</title>
+  <meta name="description" content="Knockback stacking part 1: vector addition and Falco" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Knockback stacking part 1: vector addition and Falco" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Knockback stacking part 1: vector addition and Falco" />
+  
+  
+  
+
+<meta name="author" content="sp99" />
+
+
+<meta name="date" content="2020-04-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="0.0.1" data-path="2020-04-29-jumping-and-you.html"><a href="#knockback-stacking-is-a-not-often-discussed-mechanic-that-has-big-implications-for-falco."><i class="fa fa-check"></i><b>0.0.1</b> Knockback stacking is a not often discussed mechanic that has big implications for Falco.</a></li>
+<li class="chapter" data-level="1" data-path="2020-04-29-jumping-and-you.html"><a href="#jump-direction-and-drift"><i class="fa fa-check"></i><b>1</b> Jump Direction and drift</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Knockback stacking part 1: vector addition and Falco</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Knockback stacking part 1: vector addition and Falco</h1>
+<p class="author"><em>sp99</em></p>
+<p class="date"><em>2020-04-20</em></p>
+</div>
+<div id="jump-direction-and-drift" class="section level1">
+<h1><span class="header-section-number">1</span> Jump Direction and drift</h1>
+<p>Some of you might have watched <a href="https://youtu.be/1AVCBvFO7VE">this video</a> or <a href="https://youtu.be/tY3XugmyMow">this one</a> on analog jumps. They’re pretty good at showing what I want to cover here, which is basically this: intial jump speed is determined by your stick position on the 2nd to last frame of jump startup.
+This means you can control you jump distance without needing to drift, which is useful as it simplifies inputs and lets you focus on other stuff, like which direction you’re gonna laser in, changing your fast fall timing or just freeing up your mental stack.
+The following pic shows Falco’s landing position (with no drift whatsoever) if you dash in a direction and then hold the stick <em>during jump startup</em> in a certain direction.</p>
+<p><img src="/post/2020-04-29-jumping-and-you_files/lasers.png" />
+The arrow shows Falco’s starting position, he then dashes left or right, and does the exact same laser (no variation on jump, laser or fast fall timing). The only difference is that he hold left, right or no direction during jump startup, so the leftmost bird is doing dash left, then jumping left; the next one dash left, releasing the control stick during jump startup (neutral jump), and so on. The pic is missing dash right, jump left, but it’s pretty clear where that would put you (hint: it’s the blank space).</p>
+This brings us to something I recommend everyone to do: dash forward and neutral jump.<br />
+It lets you advance and doesn’t expose you to attacks in place or dash back whiff punish attempts.
+<div style="position:relative; padding-bottom:calc(82.19% + 44px)">
+<iframe src="https://gfycat.com/ifr/sneakyweightybats?autoplay=0" frameborder="0" scrolling="no" width="75%" height="75%" style="position:absolute;top:0;left:0;" allowfullscreen>
+</iframe>
+</div>
+<p>
+This is a very basic example, Falco does laser into approaching laser, Sheik responds with take laser ftilt (you can replace this with a Fox/Marth uptilt or anything similar). Then he does laser into dash neutral jump laser, which puts him close to Sheik with frame advantage.<br />
+Here’s an example with Fox doing dash dance grab vs an approaching dair:
+<div style="position:relative; padding-bottom:calc(82.19% + 44px)">
+<iframe src="https://gfycat.com/ifr/hardtofinddearbarnswallow?autoplay=0" frameborder="0" scrolling="no" width="75%" height="75%" style="position:absolute;top:0;left:0;" allowfullscreen>
+</iframe>
+</div>
+<p>
+And here’s one against Samus, which needs a bit more explaining.
+<div style="position:relative; padding-bottom:calc(82.19% + 44px)">
+<iframe src="https://gfycat.com/ifr/anysmoothflounder?autoplay=0" frameborder="0" scrolling="no" width="75%" height="75%" style="position:absolute;top:0;left:0;" allowfullscreen>
+</iframe>
+</div>
+<p>
+<p>This dair covers Samus moving forward (a wavedash forward goes right into it), is safe from her OoS options (upb and nair OoS won’t hit) and still gives you enough time to chase and whiff punish in case she does a wd back dsmash/dtilt to cover an overshoot.</p>
+<p>With that out of the way, let’s move onto drift.</p>
+<p>Drift applies acceleration to your character, proportional to your control stick’s X position, but it can’t put you over your character’s max air speed. This is pretty relevant for Falco as dashing forward then jumping forward puts you over his max air speed, this means <em>drifting forward does absolutely nothing if you jumped forward.</em> Since you’re over your max air speed, the game will slow you down each frame, independent of drift, but we can take advantage of that to basically stop in midair really fast: if you drift back while past max air speed, you get drift and the natural speed reduction. This allows Falco to control his jumps even more precisely (at least jumps forward) as you can just decide to stop</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

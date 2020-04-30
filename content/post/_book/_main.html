@@ -103,7 +103,7 @@ Here’s a pretty clear example, Marth gets shined, then he gets daired (clean h
 <p>See how even with percent increasing and “weak dair” never coming into play he still falls slowly?<br />
 So, how does this work? <a href="https://smashboards.com/threads/falco-discussion-thread.256826/page-602#post-21816201">taukhan already did a thorough writeup, so if you want to learn more check it out.</a><br />
 The short version is that the game does conditional vector addition for knockback when more than 10 frames have passed between hits.
-Let’s break that down: the game takes your knockback, looks at the vertical and horizontal knockback vectors separately and adds them with the components of the following hit. In the case of shine into dair, one sends you up, the other sends you down, so you add them and they end up cancelling each other.
+Let’s break that down: the game takes your knockback, looks at the vertical and horizontal knockback vectors separately and adds them with the components of the following hit. In the case of shine into dair, one sends you up, the other sends you down, so you add them and they end up cancelling each other.<br />
 Ok, but what about situations where the kb components point in the same direction? That’s where the “conditional” part comes in, they only get added if they point in opposite directions, if they point in the same direction, the game keeps the bigger one and discards the other one.</p>
 <p>In action it looks like this:</p>
 <div style="position:relative; padding-bottom:calc(82.19% + 44px)">
@@ -114,17 +114,27 @@ Ok, but what about situations where the kb components point in the same directio
 <p>This shows a shine bair with no kb stacking, followed by one with stacking, Marth goes way higher in the second one (it’s the one where he gets combo’d instead of getting an upair of his own). That’s because the remaining vertical knockback from the shine is bigger than the vertical knockback of the bair, so you keep it and ignore bair’s v. knockback. Same thing happens with the horizontal knockback, except this time it’s bair that has the bigger horizontal component. The result is you (kinda) get a bair with shine’s upward knocback and bair’s horizontal knockback.</p>
 <p>In a follow up post I’ll show some applications (including a clip of a very excited westballz after a conversation we had).</p>
 
-<p>For a long (long) time this has been a staple of Mango’s game vs Marth on FD:</p>
-<iframe width="1903" height="797" src="https://www.youtube.com/embed/aUVFOdtqM-w&amp;t=1027" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<p>For a long (long) time this type of combo has been a staple of Mango’s game vs Marth on FD:</p>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/aUVFOdtqM-w&amp;t=1027" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<p>People always give tips on how to do it <code>you have to instant double jump</code>, <code>hit with soft dair, not hard</code>, <code>fast fall when you hit them</code> and a bunch of other advice, yet few other Falco’s manage to do it.
-This is because all those random pieces of advice have nothing to do with how it works: it’s all about stacking, baby.</p>
+<p>People always give tips on how to do it <code>you have to instant double jump</code>, <code>hit with soft dair, not hard</code>, <code>fast fall when you hit them</code>, yet few Falco’s manage to do it as well or as consistently as him.
+This is because all those pieces of advice are ignoring how it works: it’s all about stacking, baby.</p>
 <p>In the previous post I explained how <em>knockback stacking</em> worked, but for this we need to dive a bit into how <em>knockback</em> works.
 When you hit someone they don’t go flying infinitely and die, right? That’s cause knockback decays with time and once they exit hitstun they can act (drift, double jump, do specials, whatever).</p>
-<p>For this type of combo you want the right amount of upwards (positive) vertical knockback before hitting with dair. Do it too early (too much positive v. knockback), and they won’t fall down fast enough, do it too late, and they’ll land before you even get close to the ground. Knowing this means you can troubleshoot your combos easily:
-Did they go down too slowly? Dair later.
-Did they go down too fast? Dair earlier.
-Take into account your jumps too, you don’t want to delay your dair and then hit them as you rise, it’s usually better to jump early and dair later. If that still doesn’t work, try hitting them with the late hit of dair, around 70% it can make all the difference.</p>
+<p>For this type of combo you want the right amount of upwards (positive) vertical knockback before hitting with dair. Do it too early (too much positive vertical knockback), and they won’t fall down fast enough, do it too late, and they’ll land before you even get close to the ground</p>
+<p>Knowing this means you can troubleshoot your combos easily:<br />
+Did they go down too slowly? Dair later.<br />
+Did they go down too fast? Dair earlier.</p>
+<p>Take into account your jumps too, you don’t want to delay your dair and then hit them as you rise, it’s usually better to jump early and dair later (notice the first dair in the mango clip). If that still doesn’t work, <em>then</em> try hitting them with the late hit of dair.</p>
+<p>Since you have to decide on the fly based on their DI, percent and how much time you need to reach them, it’s no wonder people mess up.</p>
+<p>This ended up being longer than I expected, so I’ll leave more applications for another post, but this should at least give you a basic enough understanding to draw up other scenarios or realize in what other instances you’ve been using kb stacking without realizing it.</p>
+<p>One last thing, I promised excited Westballz in my last post, so here you go:</p>
+<div style="position:relative; padding-bottom:calc(50% + 44px)">
+<iframe src="https://clips.twitch.tv/embed?clip=MildSuaveBottleTheTarFu&amp;autoplay=false" frameborder="0" autoplay="false" allowfullscreen="true" width="100%" height="100%" style="position:absolute;top:0;left:0;">
+</iframe>
+</div>
+<p>
+
 <div style="position:relative; padding-bottom:calc(56.25% + 44px)">
 <iframe src="https://gfycat.com/ifr/UnrealisticSmoggyJackrabbit?autoplay=0" frameborder="0" scrolling="no" width="100%" height="100%" style="position:absolute;top:0;left:0;" allowfullscreen>
 </iframe>
@@ -135,11 +145,7 @@ Take into account your jumps too, you don’t want to delay your dair and then h
 </iframe>
 </div>
 <p>
-<div style="position:relative; padding-bottom:calc(50% + 44px)">
-<iframe src="https://clips.twitch.tv/embed?clip=MildSuaveBottleTheTarFu&amp;autoplay=false" frameborder="0" autoplay="false" allowfullscreen="true" width="100%" height="100%" style="position:absolute;top:0;left:0;">
-</iframe>
-</div>
-<p>
+
 
 </div>
             </section>
