@@ -62,5 +62,5 @@ With that out of the way, let's close this with a little bit of info on drift.
 
 Drift applies acceleration to your character each frame, proportional to your control stick's X position, but it can't put you over your character's max air speed. This last part is very relevant to Falco, as dashing then jumping forward puts you over his max air speed, which means *drifting forward does absolutely nothing if you jumped forward.*  Plus, since you're over your max air speed, the game will slow you down each frame, independent of drift, and we can take advantage of that to basically stop in midair really fast: if you drift back while past max air speed, it gets added to the natural speed reduction. This allows Falco to control his jumps even more precisely (at least jumps forward) as you can pick a spot and hit the brakes.
 
-I hope this helped you guys understand jumping mechanics better, let me know if something was unclear or wrong so I can fix it.
+I hope this helped you guys understand jumping mechanics better, let me know if something was unclear or wrong so I can fix it.  
 Also dash neutral jump, it's really good.
