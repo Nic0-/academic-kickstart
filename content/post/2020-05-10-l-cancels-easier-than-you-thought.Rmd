@@ -1,0 +1,57 @@
+---
+title: 'L-cancels: easier than you thought'
+author: ''
+date: '2020-05-10'
+slug: l-cancels-easier-than-you-thought
+categories:
+  - Mechanics
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-10T17:19:00-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+output:  
+  tufte::tufte_html: default
+---
+
+
+Over the course of melee's competitive lifespan there has been a lot of talk regarding l-canceling in terms of decision making and game design, some people think it's unnecessary, others think it adds complexity to the game. With Project M being relevant again, the idea of removing it (making it automatic) has been floated around, with special attention being put on how the mechanic is different in each game.
+
+While they do function differently, there's lots of misunderstandings about how it actually works *in Melee*. One thing I saw brought up multiple times was how in PM, l-canceling "buffered" through hitlag, something that doesn't happen in Melee, so let's get this straight: there is no l-cancel buffer in PM\*, **but there is one in Melee**.  
+
+This might sound weird, which is why I say people are misunderstanding the mechanic: in Melee, if you press a shield input during hitlag, the game will save said input until hitlag ends, ie, buffers it.
+
+Don't believe me? Don't worry, you wouldn't be the first, so here's a demonstration.
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/fearlessknobbylhasaapso?autoplay=0' frameborder='0' scrolling='no' width='75%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+Here I'm controlling both Falco's with a single controller, and inputing an l-cancel during P1's hitlag. For P2 nothing special happens, he lands 2 frames after the input, but P1 Falco lands 8 frames after the input, which would mean no l-cancel at all.
+
+Here's an even more extreme example:
+
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/acrobaticgloriousdarwinsfox?autoplay=0' frameborder='0' scrolling='no' width='75%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+Falcon's strong knee has 9 frames of hitlag, which is more than the whole l-cancel window. Here I input the l-cancel on the first frame of hitlag, which would mean Falcon lands `8+the remaining airborne frames` after the input, yet he still gets the l-cancel.
+
+Cool, huh? The biggest implication for this is that you can option select l-cancels for both hit and whiff with a single input, which simplifies the whole thing.
+There's some situations where the timing might be a bit awkward, and against a moving target the timing can easily change, so how do you deal with that? Double tap any shield button and the problem goes away.
+
+Most of the difficulty around l-canceling comes from people not being aware of these 2 things, and reducing complexity will allow you to react faster, spend less mental energy, and well, not miss l-cancels.
+
+So from now on make it easy on yourselves and option select your l-cancels with a single (or multiple inputs).
+You still have to care about it whiffing or connecting, but this gives you more time until you have to act on said information and simplifies the whole interaction.
+
+
+
+##### \*Note: If you're curious, in PM attacker hitlag basically doesn't exist, those frames don't affect the l-cancel window and they don't accept inputs either. If you do the l-cancels I'm talking about in this article in PM, you'll miss them unless you press and hold the shield button, so the input gets read as soon as hitlag ends. On the flipside, you can just do the l-cancel before hitlag every time and you won't miss them.
+
+
+
+
