@@ -14,7 +14,7 @@ image:
 ---
 For a long (long) time this type of combo has been a staple of Mango's game vs Marth on FD:
 
-<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/spotlesswillinghatchetfish?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%'  style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/spotlesswillinghatchetfish?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%'  style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
 
 
@@ -36,12 +36,11 @@ Did they go down too fast? Dair earlier.
 
 Take into account your jumps too, you don't want to delay your dair and then hit them as you rise, it's usually better to jump early and dair later (notice the first dair in the mango clip). If that still doesn't work, *then* try hitting them with the late hit of dair.
 
-Since you have to decide on the fly based on their DI, percent and how much time you need to reach them, it's no wonder people mess up. Experience helps a lot, but understaing it should speed it up quite a bit.
+Since you have to decide on the fly based on their DI, percent and how much time you need to reach them, it's no wonder people mess up. Experience helps a lot, but understanding it should speed it up quite a bit.
 
 To keep this brief, I'll leave more applications for another post, but this should at least give you a basic enough understanding to draw up other scenarios or realize in what instances you've been using kb stacking without realizing it.
 
 One last thing, I promised excited Westballz in my last post, so here you go:
 
-<div style='position:relative; padding-bottom:calc(50% + 44px)'><iframe src="https://clips.twitch.tv/embed?clip=MildSuaveBottleTheTarFu&autoplay=false" frameborder="0" autoplay="false" allowfullscreen="true" width='100%' height='100%' style='position:absolute;top:0;left:0;' ></iframe></div><p>
-
+<div style='position:relative; padding-bottom:calc(50% + 44px)'><iframe src="https://clips.twitch.tv/embed?clip=MildSuaveBottleTheTarFu&parent=churchofsp.netlify.app" frameborder="0" autoplay="false" allowfullscreen="true" width='100%' height='100%' style='position:absolute;top:0;left:0;' ></iframe></div>
 
