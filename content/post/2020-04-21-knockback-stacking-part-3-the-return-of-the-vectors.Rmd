@@ -1,0 +1,27 @@
+---
+title: 'Knockback stacking part 3: the return of the vectors'
+author: sp99
+date: '2020-04-21'
+slug: knockback-stacking-part-3-the-return-of-the-vectors
+categories:
+  - Mechanics
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-04-21T14:59:27-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+aaa
+
+<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/UnrealisticSmoggyJackrabbit?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%'  style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+<div style='position:relative; padding-bottom:calc(82.19% + 44px)'><iframe src='https://gfycat.com/ifr/FairKindheartedAffenpinscher?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+

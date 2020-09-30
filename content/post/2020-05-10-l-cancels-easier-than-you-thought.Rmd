@@ -45,7 +45,7 @@ There's some situations where the timing might be a bit awkward, and against a m
 
 Most of the difficulty around l-canceling comes from people not being aware of these 2 things, and reducing complexity will allow you to react faster, spend less mental energy, and well, not miss l-cancels.
 
-So from now on make it easy on yourselves and option select your l-cancels with a single (or multiple inputs).
+So from now on make it easy on yourselves and option select your l-cancels with a single (or multiple) input(s).
 You still have to care about it whiffing or connecting, but this gives you more time until you have to act on said information, so go out there and l-cancel *smart*, your brain will thank you.
 
 
