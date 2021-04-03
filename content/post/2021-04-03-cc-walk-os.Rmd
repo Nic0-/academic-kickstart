@@ -26,7 +26,8 @@ You're option selecting (OS) a walk if you get hit, and stay crouching if you do
 
 In the following sequence, Falco crouches against a Fox getup attack, he falls off the platform and has no time to get a punish. Using the cc walk, he stays on the platform and manages to get a shine, without any tight inputs. In case Fox rolls or tries to get up without attacking, crouching isn't a hard commitment and thus Falco is free to cover those options.
 
-<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/carefulthreadbareadouri?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/carefulthreadbareadouri?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
 
 The specific input for this is any Y-coordinate, along the gate, above -0.7 and below -0.625, which means a shield drop notch and several values above it will work. In practice you crouch however you like, then roll to the shield drop notch in the direction your opponent is in. It's not necessary to do it fast, as long as you're holding the correct value by the time you land cancel, you will get the automatic walk.
 
