@@ -1,0 +1,83 @@
+---
+title: 'CC Walk OS: just walk it off'
+author: sp99
+date: '2021-04-03'
+slug: cc-walk-os
+categories:
+  - Mechanics
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-04-03T18:35:02-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This article is about a little-known quirk related to input-output maps: the coordinates that trigger crouch are not the same as the coordinates that make you stay in crouch.
+
+This creates an interesting situation, you can crouch, then move the control stick to a position that would make you walk if you weren't crouching, and stay crouched until something forces you out of it. By doing this you can CC, get a bit of ASDI forward and walk as soon as you're actionable, letting you stay closer and counteract the pushback from the hit.
+
+You're option selecting (OS) a walk if you get hit, and stay crouching if you don'.
+
+In the following sequence, Falco crouches against a Fox getup attack, he falls off the platform and has no time to get a punish. Using the cc walk, he stays on the platform and manages to get a shine, without any tight inputs. In case Fox rolls or tries to get up without attacking, crouching isn't a hard commitment and thus Falco is free to cover those options.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/carefulthreadbareadouri?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+The specific input for this is any Y-coordinate, along the gate, above -0.7 and below -0.625, which means a shield drop notch and several values above it will work. In practice you crouch however you like, then roll to the shield drop notch in the direction your opponent is in. It's not necessary to do it fast, as long as you're holding the correct value by the time you land cancel, you will get the automatic walk.
+
+I made multiple example gfycats to showcase how cc walk can let you punish normally safe attacks, or make tight punishes more lenient.
+
+In the first set of examples, Falco tries to cc shine, missing because he's out of range and then repeating the situation with CC walk. I recommend using gfycat's slow motion or frame advance (arrow keys when playing or paused respectively) to see the walks and attack timings clearly.
+
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/peacefulmemorablechrysalis?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/alarmedentirelabradorretriever?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+In this one, by moving to the notch as Falco got hit, he gets an SDI input in addition to the walk. I consider this one to be more of a showcase of what's possible, instead of being something practical, at least with this much percent on Falco.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/serpentineperfectaustraliansilkyterrier?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+Same idea as the Falco examples, Samus can't reach if she only crouches, but she gets to down smash if she cc walks.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/magnificentfrequentantarcticgiantpetrel?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/zestycloudyhornet?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+The next example might look like a pretty niche one, but the concept is applicable by most characters. By doing an invincible ledge option into CC walk, they can deal with several corner pressure options. If your opponent is spacing around your ledge dash/AI attacks, doing this will give you another escape route.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/rawliveisabellineshrike?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+In this example, Samus faces a backflip bair from Falco. First, she tries doing an aerial interrupt (AI) and walking forward while doing ASDI down, the bair puts her back on the ledge. The next option is AI dsmash+ASDI down, the backflip bair goes over it and punishes her. The final attempt is the OS and it lets her punish Falco. Crouch alone is not enough (I forgot to record this one, so I'll ask you to trust me or test it yourself to make sure).
+
+Here's the same concept but with Falco as the defender.
+
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/forkedbogusjenny?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+While this article focuses on CC walk, the idea of land canceling plus walk does not require crouch. Whenever you're inactionable you can hold the control stick forward and the cstick down. If you get hit you will ASDI down and immediately walk forward. A couple of things to keep in mind is that without the knockback reduction given by crouching: you will be sent further away, and the land cancel will stop working earlier.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/elatedraggeddeermouse?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+To conclude, I'd say that OS-ing a walk can make your crouch cancel game stronger, for almost no added complexity. There's little downside to doing it in most of the situations I tried. So far I've only run into one exception: double-hitting getup attacks. They will knock you down while walking forward even at 0%, so you need to hold straight down for the first hit, and then do the OS.
+
+The examples I shared are not exhaustive, there are many more applications, so be creative when using this. If you have any questions or come up with any uses that you would like me to explain and/or include here, don't hesitate to message me through Discord.
+
+Until next time.
+
+#### P.S.: Another interesting thing about these walk angles is that they won't make you walk off the edge of the stage. You can use that when edgeguarding Marth at low percents.
+
+<div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/dishonestweightyanaconda?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+#### The crouch→ftilt→walk sequence serves to highlight that I'm using the same angle, and what puts Falco out of crouch this time is his own attack instead of getting hit. You can walk forward and hold the angle as you get to the ledge, or wavedash and hold it so you go right into teeter. This also works when ledge canceling, but I couldn't think of a practical application for it.
+
+
