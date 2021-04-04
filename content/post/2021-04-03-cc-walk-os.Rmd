@@ -20,16 +20,16 @@ projects: []
 
 This article is about a little-known quirk related to input-output maps: the coordinates that trigger crouch are not the same as the coordinates that make you stay in crouch.
 
-This creates an interesting situation, you can crouch, then move the control stick to a position that would make you walk if you weren't crouching, and stay crouched until something forces you out of it. By doing this you can CC, get a bit of ASDI forward and walk as soon as you're actionable, letting you stay closer and counteract the pushback from the hit.
+This creates the crouch cancel walk option select (CC Walk OS): you can crouch, then move the control stick to a position that would make you walk if you weren't crouching, and stay crouched until something forces you out of it. By doing this you can CC, get a bit of ASDI forward and walk as soon as you're actionable, letting you stay closer and counteract the pushback from the hit.
 
-You're option selecting (OS) a walk if you get hit, and stay crouching if you don'.
+You're option selecting (OS) a walk if you get hit, and stay crouching if you don't.
 
-In the following sequence, Falco crouches against a Fox getup attack, he falls off the platform and has no time to get a punish. Using the cc walk, he stays on the platform and manages to get a shine, without any tight inputs. In case Fox rolls or tries to get up without attacking, crouching isn't a hard commitment and thus Falco is free to cover those options.
+In the following sequence, Falco crouches against a Fox getup attack, falls off the platform and has no time to get a punish. Using the cc walk, he stays on the platform and manages to get a shine, without any tight inputs. In case Fox rolls or tries to get up without attacking, crouching isn't a hard commitment and thus Falco is free to cover those options.
 
 <div style='position:relative; padding-bottom:calc(500px)'><iframe src='https://gfycat.com/ifr/carefulthreadbareadouri?autoplay=0' frameborder='0' scrolling='no' width='70%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
 
 
-The specific input for this is any Y-coordinate, along the gate, above -0.7 and below -0.625, which means a shield drop notch and several values above it will work. In practice you crouch however you like, then roll to the shield drop notch in the direction your opponent is in. It's not necessary to do it fast, as long as you're holding the correct value by the time you land cancel, you will get the automatic walk.
+The specific input for this is any Y-coordinate, along the gate, above -0.7 and as high as -0.625. This means a shield drop notch and several values above it will work. In practice you crouch however you like, then roll to the shield drop notch in the direction your opponent is in. It's not necessary to do it fast, as long as you're holding the correct value by the time you land cancel, you will get the automatic walk.
 
 I made multiple example gfycats to showcase how cc walk can let you punish normally safe attacks, or make tight punishes more lenient.
 
