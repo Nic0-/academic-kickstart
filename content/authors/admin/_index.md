@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include a lot of things, not gonna list them here.
+bio: I recently started a [Patreon](https://www.patreon.com/sp99), if you like my content and can afford it, please consider supporting it.
 
 interests:
 - Knockback stacking
