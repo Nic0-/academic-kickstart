@@ -119,5 +119,5 @@ If any reader has examples of more complex sequences that aren't covered here, o
 
 #### The easiest way to do those two lasers for me has been doing a quarter circle from the dash direction to down, then going slightly past. This small diagonal input at the end is enough to get the turn laser, without drifting and killing your jump trajectory or having to deal with snapback. For a db4 laser, start the motion when you go airborne. For a db5 laser, do it during kneebend and time it so the down input is read for jump direction. If you mistime and get a slightly diagonal input, it won't matter much. Because jump direction is analog, almost straight down will give you something close enough to a db5 jump that it will be hard to even tell the difference in a real match. 
 
-#### I recently found out Mango does his db5 lasers like this too, after watching one of his vods with inputs on, and he does them a ton.
+#### After recently watching a Mango vod together with Ober, we noticed he does his db5 lasers like this, and he does them a ton.
 
