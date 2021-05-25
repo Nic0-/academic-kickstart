@@ -1,0 +1,123 @@
+---
+title: 'Jump Notation'
+author: sp
+date: '2021-05-24'
+slug: jump-notation
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-24T15:51:59-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+What do you do when you want to teach another player how execute something? Do you show examples in-game? Show handcam footage? Maybe you show them a video and explain the inputs.
+
+As a community we tend to rely on video to show concepts, combos and movement options, yet this isn't standard in other games. If you go to a wiki for non-smash fighting games you will find full combos and techniques written with symbols, with specific notation for each action. In Melee people will describe combos piece by piece or list the sequence of moves, ignoring specific movement or timing requirements (see the kb stacking series to understand why this is a problem for Falco).
+
+### What is a retreating laser?
+
+When talking about neutral options you will find descriptions like "walling", "full momentum", "half approaching" or "retreating". Let's take retreating as an example, the meaning varies according to context or even the persons involved in the conversation. If I say to retreating laser as Falco, does that mean dash away then laser in place? Does it mean to jump away then laser? What about dashing away and jumping away instantly? All of those achieve different things yet they are all "retreating lasers". 
+
+![Do a lord stomp? But which one?](/post/2021-05-24-jump-notation_files/lord stomps.png)
+
+Another example is Falcon's lord stomp. In this picture all 3 Falcon's started from the same position, dashed and jumped at the same time, then did a dair at the same timing. If you want to tell someone which one to do or even how to do it, what do you say?
+
+The fact that we do not have a way to refer to each option without typing a full sentence has led to people not bothering to do it, and thus a big part of the game is kept outside of most discussions. What's left out has unnecessarily become tacit knowledge, it is currently learned via experience and experimentation or by being taught by another player (direct instruction and/or imitation).
+
+Since discourse helps shape the way we think, even experienced players will tend to ignore the parts we leave out. 
+
+Having a standardized notation for jumps both simplifies discourse and allows us to push our understanding of the game.
+
+### Notation
+
+The notation I'm proposing consists of the following, one or two letters followed by one or two numbers. The letters indicate the movement preceding the jump, a single j means a jump starting from a standing position or shield, df stands for dash forward, db for dash back. 
+
+The pair of numbers that follows describes the jump direction and aerial drift respectively, if there is no drift, the second number is dropped. The basic directions are 6 (forward), 5 (neutral), and 4 (back).
+
+Putting that together we get that "dash forward, jump forward, drift back" would be df64 and a "dash forward neutral jump no drift" would be df5. "Dash back jump back" laser or "full retreating laser" would be simply "db4 laser".
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/damppoorboaconstrictor?autoplay=0' frameborder='0' scrolling='no' width='100%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+Falco showing six different dash jump lasers, all with no drift.
+
+Forward and back are always relative to the opponent, for both the letters and the numbers.
+
+These are based on numpad notation and assume the opponent is to the right. 1 and 3 can be used to refer to diagonals, even though only the x-component actually matters for determining your jump direction.
+
+![](/post/2021-05-24-jump-notation_files/numpad notation.jpg)
+
+
+Delayed drift is notated with a ~, so "jump forward delayed drift back" would be j6~4. 
+
+Full hops are notated by adding a capital F in front of the sequence (Fdf6 for example).
+
+It is common for df66 to be identical to df6, because df6 puts characters past their max airspeed, so the game does not allow them accelerate even further using drift. This makes df66 useless from a notation standpoint for a big chunk of the cast. For some characters with fast initial dashes (Marth and Fox, not Sheik or Falcon) this will happen with df5 too, so df56 is also useless to notate for them. I did not test the whole cast.
+
+### Benefits
+
+The most immediate utility of notation is keeping communication short and unambiguous.
+
+For example, to punish Fox doing multiple uptilts on shield, and avoid jumping into them, Falco can neutral jump drift forward oos and dair. This is a mouthful and with the notation it turns into j56 dair.
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/illiteratesmoothgordonsetter?autoplay=0' frameborder='0' scrolling='no' width='100%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+This gfy shows in real time the situation described earlier, where 3 Falcons do a Lord stomp and they all execute it differently.
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/friendlylegitimatehorse?autoplay=0' frameborder='0' scrolling='no' width='100%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+From left to right they did (imagine an opponent to their left) db66, db6 and db56. None of them are hard to do, but you have to pick the right one for each situation. Unlike saying only "lord stomp", the notation gives additional clarity as to what exactly is the relevant variation.
+
+There are also benefits when trying to understand the game. Having a way to refer to certain options (e.g. df5) helps us consider them as one thing in the first place, instead of as a series of options (a dash followed by a neutral jump with no drift) that happened to have a certain end result.
+
+By chunking this trio of options (movement, jump direction, drift) into a single unit, it's easier to recognize when it happens, think about the purpose behind it and understand the uses for it.
+
+We can assign general properties to specific jumps, for example Falco doing a df5 is usually safer than df6 and can be a great way to take space without jumping into an attack or getting dash dance grabbed. By separating this from move choice, we simplify the decision making.
+
+We can also go in the other direction, and go deep into the differences between jumps in a single interaction.
+
+
+<div style='position:relative; padding-bottom:calc(70.19% + 44px)'><iframe src='https://gfycat.com/ifr/farsinglefrigatebird?autoplay=0' frameborder='0' scrolling='no' width='100%' height='95%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p>
+
+
+Falco doing laser df5 dair (top) and df6 dair (bottom).
+
+Here, the grab that catches df6 misses against a df5. If Marth does a shorter dash back to beat df5, he gets hit by df6. Going beyond that, both Falcos cover different options: 
+
+- the df6 dair hits Marth doing take laser uptilt while df5 can trade.
+- df6 dair is safe from shield grab by landing behind, df5 can be safe because contact with the shield is delayed, but it's riskier because a tiny spacing change could make it hit while rising.
+- they both catch him trying to move forward.
+
+Starting from this we can think how drift might affect the end result, for instance if the df6 hits Marth moving forward, Falco might land too far to combo, so df6~4 rises in value. Something similar happens if Marth shields, Falco lands behind him but not close enough to continue pressure, the delayed drift back would change that.
+
+### Limitations
+
+This notation system is not exhaustive, it does not cover every possible combination of jump and drift, but it does not have to, we can expand it as new problems come up. 
+
+Characters who rely a lot on changing their drift at different timings or multiple times during a single jump might require adding additional symbols or modifying the notation. For example, Puff doing "dash forward full hop forward drift forward into drift back" could be Fdf66~4, but there's the question of when the drift back starts and ends, something that doesn't really come up in a Falco short hop.
+
+If any reader has examples of more complex sequences that aren't covered here, or that require additional symbols, you can contact me via Twitter, Patreon or find me in the Falco Discord. I'll gladly update the article with them and give you credit.
+
+### Other uses for numpad notation
+
+There's unusual input sequences that could be described via standard numpad notation.
+
+[spin jump](https://gfycat.com/differentadventurousindianrhinoceros): shine then 916
+
+The sequence starts at 9 to guarantee the tap jump input won't trigger turn, then goes to 1 for the jump direction, followed by drift forward. It could just be notated as j16, since it can be done with any jump input that doesn't trigger turn, but the 9 makes it easier and also gives you a bigger window to get the frame perfect jump due to the tap jump pseudo-buffer. It can also be done as almost a full circle (360º) starting from up-forward and finishing on forward.
+
+db4/5 laser input: 4123 B
+
+The easiest way to do those two lasers for me has been doing a quarter circle from the dash direction to down, then going slightly past. This small diagonal input at the end is enough to get the turn laser, without drifting and killing your jump trajectory or having to deal with snapback. For a db4 laser, start the motion when you go airborne. For a db5 laser, do it during kneebend and time it so the down input is read for jump direction. If you mistime and get a slightly diagonal input, it won't matter much. Because jump direction is analog, almost straight down will give you something close enough to a db5 jump that it will be hard to even tell the difference in a real match. 
+
+I recently found out Mango does his db5 lasers like this too, after watching one of his vods with inputs on, and he does them a ton.
+
