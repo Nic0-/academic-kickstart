@@ -109,15 +109,15 @@ If any reader has examples of more complex sequences that aren't covered here, o
 
 ### Other uses for numpad notation
 
-There's unusual input sequences that could be described via standard numpad notation.
+#### There's unusual input sequences that could be described via standard numpad notation.
 
-[spin jump](https://gfycat.com/differentadventurousindianrhinoceros): shine then 916
+[spin jump: shine then 916](https://gfycat.com/differentadventurousindianrhinoceros)
 
-The sequence starts at 9 to guarantee the tap jump input won't trigger turn, then goes to 1 for the jump direction, followed by drift forward. It could just be notated as j16, since it can be done with any jump input that doesn't trigger turn, but the 9 makes it easier and also gives you a bigger window to get the frame perfect jump due to the tap jump pseudo-buffer. It can also be done as almost a full circle (360º) starting from up-forward and finishing on forward.
+#### The sequence starts at 9 to guarantee the tap jump input won't trigger turn, then goes to 1 for the jump direction, followed by drift forward. It could just be notated as j16, since it can be done with any jump input that doesn't trigger turn, but the 9 makes it easier and also gives you a bigger window to get the frame perfect jump due to the tap jump pseudo-buffer. It can also be done as almost a full circle (360º) starting from up-forward and finishing on forward.
 
-db4/5 laser input: 4123 B
+#### db4/5 laser input: 4123 B
 
-The easiest way to do those two lasers for me has been doing a quarter circle from the dash direction to down, then going slightly past. This small diagonal input at the end is enough to get the turn laser, without drifting and killing your jump trajectory or having to deal with snapback. For a db4 laser, start the motion when you go airborne. For a db5 laser, do it during kneebend and time it so the down input is read for jump direction. If you mistime and get a slightly diagonal input, it won't matter much. Because jump direction is analog, almost straight down will give you something close enough to a db5 jump that it will be hard to even tell the difference in a real match. 
+#### The easiest way to do those two lasers for me has been doing a quarter circle from the dash direction to down, then going slightly past. This small diagonal input at the end is enough to get the turn laser, without drifting and killing your jump trajectory or having to deal with snapback. For a db4 laser, start the motion when you go airborne. For a db5 laser, do it during kneebend and time it so the down input is read for jump direction. If you mistime and get a slightly diagonal input, it won't matter much. Because jump direction is analog, almost straight down will give you something close enough to a db5 jump that it will be hard to even tell the difference in a real match. 
 
-I recently found out Mango does his db5 lasers like this too, after watching one of his vods with inputs on, and he does them a ton.
+#### I recently found out Mango does his db5 lasers like this too, after watching one of his vods with inputs on, and he does them a ton.
 
