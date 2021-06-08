@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I recently started a [Patreon](https://www.patreon.com/sp99), if you like my content and can afford it, please consider supporting it.
+bio: I recently started a [Patreon](https://www.patreon.com/sp99) and a [Ko-fi](https://ko-fi.com/nicosp99), if you like my content and can afford it, please consider supporting me.
 
 interests:
 - Knockback stacking
